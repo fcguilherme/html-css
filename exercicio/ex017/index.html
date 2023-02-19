@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', sans-serif, monospace;
+            /* 
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = a 1em
+            */
+            font-size: 1em ;
+            font-weight: normal;
+            /* lighter normal bold bolder */
+            font-style: normal;
+            text-decoration: underline;
+            /* underline deixa o texto sublinhado */
+
+            /* shorthand font / conpila todas as configuraçoes acima em uma só
+            
+            - font-style -> font-weight -> font-size -> font-family*/
+            font: italic normal 1em 'Courier New', sans-serif;
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fugit error ea necessitatibus dolor quos aspernatur a voluptas, illum laudantium provident quo? Voluptatem mollitia, rem dolorum adipisci labore doloribus quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic doloribus exercitationem voluptatum similique dolore reprehenderit labore, sequi aliquam eligendi earum ex eum cupiditate quibusdam expedita cum aspernatur ad animi nostrum.</p>
+    <h2>Subtítulo do texto</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At reiciendis recusandae nostrum ducimus quis eligendi numquam, culpa dicta, quas sunt quia maxime nesciunt voluptates dignissimos enim veniam consequuntur, officia nisi.</p>
+</body>
+</html>
